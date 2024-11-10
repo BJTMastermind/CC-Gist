@@ -7,7 +7,7 @@ A gist command for ComputerCraft to allow downloading/running lua code from a gi
 Install the `gist` command:
 
 ```
-pastebin get MJKiRynE
+pastebin get MJKiRynE gist.lua
 ```
 
 **Command Syntax**
