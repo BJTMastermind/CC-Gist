@@ -1,19 +1,22 @@
-# Template Repository
+# ComputerCraft Gist
 
-A short description about this project here.
+A gist command for ComputerCraft to allow downloading/running lua code from a github gist.
 
-## How To Use (GUI)
+## Install
 
-Coming Soon.
+To install the `gist` command for computercraft open a computer/turtle and run the following command:
+```
+pastebin get <ID>
+```
 
-## How To Use (CLI)
+## How To Use
 
-Coming Soon.
+Download to lua file syntax:
+`gist get <owner_username> <gist_id> <filename>`
+
+Execute lua code from gist syntax:
+`gist run <owner_username> <gist_id> [<arguments>]`
 
 ## Language(s) Used
 
-* \<language> \<version>
-
-# Screen Shots
-
-Coming Soon.
+* Lua 5.3
