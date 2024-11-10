@@ -2,21 +2,25 @@
 
 A gist command for ComputerCraft to allow downloading/running lua code from a github gist.
 
-## Install
+## How To Use
 
-To install the `gist` command for computercraft open a computer/turtle and run the following command:
+Install the `gist` command:
+
 ```
 pastebin get <ID>
 ```
 
-## How To Use
+**Command Syntax**
 
-Download to lua file syntax:
-`gist get <owner_username> <gist_id> <filename>`
+> [!NOTE]
+> CC-Gist is read-only meaning it cannot upload a gist from ComputerCraft due to gists requiring authentication.
 
-Execute lua code from gist syntax:
-`gist run <owner_username> <gist_id> [<arguments>]`
+```
+Usages:
+gist get <owner_username> <gist_id> <filename>
+gist run <owner_username> <gist_id> [<arguments>]
+```
 
 ## Language(s) Used
 
-* Lua 5.3
+* Lua 5.2
